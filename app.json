@@ -1,30 +1,35 @@
 {
   "expo": {
-    "name": "expo-case",
+    "name": "BRF NFL QrCode",
     "slug": "expo-case",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon-brf.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-screen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon-brf.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.suportebrfcode.expocase"
+    },
+    "runtimeVersion": "sdkVersion",
+    "extra": {
+      "eas": {
+        "projectId": "0ae01af5-de4c-47ec-9a32-53a6a98c7041"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "updates": {
+      "url": "https://u.expo.dev/0ae01af5-de4c-47ec-9a32-53a6a98c7041"
     }
   }
 }
